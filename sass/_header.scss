@@ -1,9 +1,9 @@
 .header {
     background-color: $color-grey-dark-1;
     grid-column: full-start / col-end 6;
-    background-image: 
+    background-image:
         linear-gradient(rgba($color-secondary, .93), rgba($color-secondary, .93)),
-        url(../img/hero-small.jpeg);
+        url(../img/hero-small.jpg);
     background-size: cover;
     background-position: center;
     padding: 8rem;
@@ -15,18 +15,18 @@
     grid-row-gap: 1.5rem;
     justify-content: center;
 
-    @media only screen and (max-width: $bp-medium) { 
+    @media only screen and (max-width: $bp-medium) {
         grid-column: full-start / full-end;
     }
 
-    @media only screen and (max-width: $bp-small) { 
+    @media only screen and (max-width: $bp-small) {
         padding: 5rem;
     }
 
     @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em),
            (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
            (min-width: 125em) {
-        background-image: 
+        background-image:
             linear-gradient(rgba($color-secondary, .93), rgba($color-secondary, .93)),
             url(../img/hero.jpeg);
     }
